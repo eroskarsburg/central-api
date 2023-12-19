@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Business\Users\Models\" />
     <Folder Include="Shared\Content\" />
-    <Folder Include="UseCase\BookUseCase\" />
   </ItemGroup>
 
 </Project>

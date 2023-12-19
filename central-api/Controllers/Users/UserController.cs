@@ -3,13 +3,13 @@
 namespace central_api.Controllers.Users
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
         [HttpGet(Name = "user/select")]
-        public IActionResult SelectUsers()
+        public async Task<IActionResult> SelectAllUsers()
         {
-            return;
+            return ;
         }
     }
 }
