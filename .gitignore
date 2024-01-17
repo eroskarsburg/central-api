@@ -6,5 +6,7 @@
 /.vs/ProjectEvaluation
 /Application/obj/Debug/net6.0
 /Application/obj
+/Application/bin
 /central-api/obj
 /central-api/obj/Debug/net6.0
+/central-api/obj/Debug
