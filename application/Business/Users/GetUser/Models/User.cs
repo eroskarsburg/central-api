@@ -1,9 +1,19 @@
-﻿namespace application.Business.Users.Models
+﻿namespace application.Business.Users.GetUser.Models
 {
-    public class UserRequest
+    public class GetUserRequest
     {
         public string? Name { get; set; }
         public string? CPF { get; set; }
+    }
+
+    public class PostUserRequest
+    {
+
+    }
+
+    public class PutUserRequest
+    {
+
     }
 
     public class UserResponse

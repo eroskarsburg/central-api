@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Shared\Content\" />
+    <Folder Include="Business\Users\DeleteUser\" />
+    <Folder Include="Business\Users\UpdateUser\" />
+    <Folder Include="Shared\Constants\" />
+    <Folder Include="Shared\Context\DB\DbCommands\Abstraction\User\" />
+    <Folder Include="Shared\Context\DB\DbCommands\Implementations\User\" />
+    <Folder Include="Shared\Context\DB\DbQueries\Abstraction\User\" />
+    <Folder Include="Shared\Context\DB\DbQueries\Implementations\User\" />
   </ItemGroup>
 
   <ItemGroup>
