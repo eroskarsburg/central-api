@@ -1,5 +1,4 @@
-﻿using application.Business.Users.Models;
-using application.Business.Users.Service;
+﻿using application.Business.Users.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace central_api.Controllers.Users
@@ -12,14 +11,14 @@ namespace central_api.Controllers.Users
 
         public UserController(IUserService service) => _service = service;
 
-        [HttpGet(Name = "user/select")]
-        public async Task<IActionResult> SelectUser(UserRequest request)
-        {
-            try
-            {
+        //[HttpGet(Name = "user/select")]
+        //public async Task<IActionResult> SelectUser(UserRequest request)
+        //{
+        //    try
+        //    {
 
-            }
-            catch (Exception) { throw; }
-        }
+        //    }
+        //    catch (Exception) { throw; }
+        //}
     }
 }
