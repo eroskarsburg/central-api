@@ -14,5 +14,6 @@ namespace application.Shared.Data
         {
             optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=CentralDB;Trusted_Connection=true;");
         }
+
     }
 }
